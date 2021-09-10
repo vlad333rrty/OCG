@@ -1,0 +1,27 @@
+main() {
+    a = 1;
+    b =  4;
+    c = b - a;
+    if ( a + 13) {
+        if (b) {
+            b = 4;
+        } else {
+            b = a;
+            d = 3;
+        }
+        c = b;
+        b = a;
+    }
+    d = a + b;
+    while (d>0) {
+        if (d){
+            d = d + 5;
+        } else {
+            d = 0;
+            a = 3;
+        }
+        d = d - a;
+    }
+    a = 4;
+    ret c + 2;
+}
